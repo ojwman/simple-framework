@@ -8,7 +8,7 @@ public class TestController {
 
 	@RequestMapping(value = "/Test.do")
 	public String selectSampleList() throws Exception {
-		return "test/grid";
+		return "test/Test";
 	}
 	
 }

@@ -6,11 +6,11 @@
 <meta charset="UTF-8">
 <title>jqgrid</title>
 
-<link type="text/css" rel="stylesheet" href="/css/jquery/ui.jqgrid-bootstrap4.css"/>
+<link type="text/css" rel="stylesheet" href="<%=request.getContextPath()%>/css/jquery/ui.jqgrid-bootstrap4.css"/>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css"/> 
-<script src="/js/simpframework/jquery/jquery-1.11.0.min.js"></script>
-<script src="/js/simpframework/jquery/jquery.jqGrid.min.js"></script>
-<script src="/js/simpframework/jquery/i18n/grid.locale-en.js"></script>
+<script src="<%=request.getContextPath()%>/js/simpframework/jquery/jquery-1.11.0.min.js"></script>
+<script src="<%=request.getContextPath()%>/js/simpframework/jquery/jquery.jqGrid.min.js"></script>
+<script src="<%=request.getContextPath()%>/js/simpframework/jquery/i18n/grid.locale-en.js"></script>
 
 </head>
 <body>
