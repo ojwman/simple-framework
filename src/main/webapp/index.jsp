@@ -7,7 +7,7 @@
 <title>simple-framework</title>
 </head>
 <body>
-	<input type="button" value="test" onclick="location.href='/Test.do'"/>
-	<input type="button" value="grid" onclick="location.href='/grid.do'"/>
+	<input type="button" value="test" onclick="location.href='<%=request.getContextPath()%>/test/Test.do'"/>
+	<input type="button" value="grid" onclick="location.href='<%=request.getContextPath()%>/test/grid.do'"/>
 </body>
 </html>
